@@ -1,0 +1,22 @@
+[worldserver]
+
+# Activa el módulo después de retirar el script Lua anterior del directorio de ALE.
+AutoAprendizaje.Enable = 0
+
+AutoAprendizaje.EnableGamemaster = 1
+AutoAprendizaje.EnableClassSpells = 1
+AutoAprendizaje.EnableSpellsFromQuests = 1
+AutoAprendizaje.EnableTalentRanks = 1
+
+# Competencias adicionales. Los hechizos incluidos en una lista de clase
+# conservan su propio nivel y requisitos. Malla y placas se rigen por esa lista.
+AutoAprendizaje.EnableProficiencies = 0
+
+# También requiere EnableClassSpells y EnableSpellsFromQuests.
+AutoAprendizaje.EnableShamanTotems = 1
+
+AutoAprendizaje.EnableApprenticeRiding = 0
+AutoAprendizaje.EnableJourneymanRiding = 0
+AutoAprendizaje.EnableExpertRiding = 0
+AutoAprendizaje.EnableArtisanRiding = 0
+AutoAprendizaje.EnableColdWeatherFlying = 0
